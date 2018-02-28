@@ -43,17 +43,24 @@ header {
 	margin-bottom: 2%;
 }
 
-#colors {
-    width: 90%;
-    margin: auto;
+article {
+  margin-top: 1%;
+	width: 100%;
+}
+
+#colors div {
+	margin: auto;
+	width: 10%;
+	display: inline;
 }
 
 .color {
-	max-width: 200px;
+	max-width: 100px;
 }
 
 .images {
-    width: 100%;
+    width: 70%;
+		height: auto;
     max-width: 900px;
     margin: auto;
 }
