@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+	background-image: url('../img/wood.jpg');
+}
+
 h1 {
     font-family: 'Shadows Into Light';
 }
@@ -30,7 +34,7 @@ header {
 }
 
 #text {
-    background-color: #e3e3e3;
+    background-color: white;
 		width: 95%;
 		margin: auto;
 		padding: 2%;
@@ -44,23 +48,24 @@ header {
 }
 
 article {
-  margin-top: 1%;
-	width: 100%;
+	width: 90%;
+	margin: auto;
+	background-color: white;
+	padding-bottom: 5%;
+	margin-bottom: 2%;
+	padding-top: 5%;
 }
 
 #colors div {
-	margin: auto;
-	width: 10%;
 	display: inline;
 }
 
 .color {
-	max-width: 100px;
+	max-width: 65px;
 }
 
 .images {
-    width: 70%;
-		height: auto;
+    height: auto;
+		width: 70%;
     max-width: 900px;
-    margin: auto;
 }
