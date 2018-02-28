@@ -24,12 +24,15 @@ body {
 
 }
 
-header {
+#container {
+    width: 100%;
+}
 
+header {
+    background-color: #98afc7;
 }
 
 main {
-
 }
 
 section {
