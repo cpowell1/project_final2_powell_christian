@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: 'Shadows Into Light';
+}
+
+h2 {
+    font-family: 'Volkhov';
+}
+
+p {
+	font-family: 'PT Sans Narrow';
+}
