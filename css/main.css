@@ -20,23 +20,13 @@ p {
     font-family: 'PT Sans Narrow';
 }
 
-body {
-
-}
-
 #container {
     width: 100%;
 }
 
 header {
     background-color: #98afc7;
-}
-
-main {
-}
-
-section {
-
+    width: 100%;
 }
 
 #text {
@@ -54,13 +44,16 @@ section {
 }
 
 #colors {
-
+    width: 90%;
+    margin: auto;
 }
 
 .color {
-
+	max-width: 200px;
 }
 
-#images {
-
+.images {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
 }
