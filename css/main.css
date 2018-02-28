@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background-image: url('../img/wood.jpg');
+    background-image: url('../img/wood.jpg');
 }
 
 h1 {
@@ -24,6 +24,18 @@ p {
     font-family: 'PT Sans Narrow';
 }
 
+a {
+	text-decoration: none;
+	color: #1c355e;
+	font-size: 1rem;
+	font-family: 'PT Sans Narrow';
+}
+
+a:hover {
+    border-top: 1px solid #1c355e;
+		border-bottom: 1px solid #1c355e;
+}
+
 #container {
     width: 100%;
 }
@@ -33,39 +45,52 @@ header {
     width: 100%;
 }
 
+header img {
+    width: 40%;
+    max-width: 150px;
+		margin: auto;
+}
+
 #text {
     background-color: white;
-		width: 95%;
-		margin: auto;
-		padding: 2%;
-		margin-top: 5%;
-		margin-bottom: 5%;
-		text-align: center;
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .btn {
-	margin-bottom: 2%;
+    margin-bottom: 2%;
 }
 
 article {
-	width: 90%;
-	margin: auto;
-	background-color: white;
-	padding-bottom: 5%;
-	margin-bottom: 2%;
-	padding-top: 5%;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+    padding-top: 5%;
+}
+
+#colors {
+    background-color: white;
 }
 
 #colors div {
-	display: inline;
+    display: inline;
 }
 
 .color {
-	max-width: 65px;
+    max-width: 65px;
+}
+
+#imgblock div {
+    display: inline;
 }
 
 .images {
     height: auto;
-		width: 70%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 300px;
 }
