@@ -111,8 +111,8 @@ article {
 }
 
 #colors div {
-    display: inline-block;
     margin: auto;
+    text-align: center;
 }
 
 .color {
