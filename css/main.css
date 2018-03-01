@@ -143,27 +143,33 @@ section {
 }
 
 @media all and (min-width: 600px) {
+
     #text {
         width: 75%;
     }
+
     article {
         width: 75%;
     }
+
     .color {
         max-width: 100px;
     }
 }
 
 @media all and (min-width: 800px) {
+
     #text {
         width: 60%;
     }
+
     article {
         width: 60%;
     }
 }
 
 @media all and (min-width: 950px) {
+
     #text {
         width: 45%;
         float: left;
@@ -187,6 +193,7 @@ section {
         margin-bottom: 5%;
         margin-left: 5%;
     }
+
     .group::after {
         content: "";
         display: table;
