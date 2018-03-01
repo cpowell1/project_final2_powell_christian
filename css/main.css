@@ -38,8 +38,8 @@ a:hover {
 
 #container {
     width: 100%;
-		max-width: 1100px;
-		margin: auto;
+    max-width: 1100px;
+    margin: auto;
 }
 
 header {
@@ -51,9 +51,9 @@ header img {
     width: 40%;
     max-width: 150px;
     margin: auto;
-		display: block;
-		padding-bottom: 2%;
-		padding-top: 2%;
+    display: block;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 #text {
@@ -120,9 +120,9 @@ article {
 #imgblock {
     margin: auto;
     text-align: center;
-		background-color: white;
-		margin-bottom: 5%;
-		padding-bottom: 1%;
+    background-color: white;
+    margin-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 .images {
@@ -133,52 +133,52 @@ article {
 
 @media all and (min-width: 600px) {
     #text {
-			width: 75%;
-		}
-		article {
-			width: 75%;
-		}
-		.color {
-			max-width: 100px;
-		}
+        width: 75%;
+    }
+    article {
+        width: 75%;
+    }
+    .color {
+        max-width: 100px;
+    }
 }
 
 @media all and (min-width: 800px) {
     #text {
-			width: 60%;
-		}
-		article {
-			width: 60%;
-		}
+        width: 60%;
+    }
+    article {
+        width: 60%;
+    }
 }
 
 @media all and (min-width: 950px) {
     #text {
-			width: 45%;
-			float: left;
-			margin-left: 3%;
-		}
+        width: 45%;
+        float: left;
+        margin-left: 3%;
+    }
 
-		#colors {
-			width: 45%;
-			float: left;
-			margin-left: 5%;
-			margin-top: 5%;
-			margin-bottom: 0%;
-			padding-bottom: 0%;
-			padding-top: 2%;
-		}
+    #colors {
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        padding-top: 2%;
+    }
 
-		#imgblock {
-			display: inline-block;
-			background-color: white;
-			width: 45%;
-			margin-bottom: 5%;
-			margin-left: 5%;
-		}
-    .group:after {
-      content: "";
-      display: table;
-      clear: both;
+    #imgblock {
+        display: inline-block;
+        background-color: white;
+        width: 45%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    .group::after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
